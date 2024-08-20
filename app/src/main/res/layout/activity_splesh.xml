@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Activity.SpleshActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nova"
+            android:textSize="58dp"
+            android:textColor="@color/black"
+            android:layout_gravity="bottom"
+            android:id="@+id/txt_nova"
+            android:fontFamily="@font/rostack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News"
+            android:textSize="38sp"
+            android:textColor="@color/Blue"
+            android:layout_marginStart="8sp"
+           android:layout_gravity="bottom"
+            android:fontFamily="@font/rostack"/>
+
+        </LinearLayout>
+
+</LinearLayout>

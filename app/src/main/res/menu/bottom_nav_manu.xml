@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnhome"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/btnad"
+        android:icon="@drawable/advertisement"
+        android:title="Ads" />
+    <item
+        android:id="@+id/plasHolder"
+        android:title="" />
+    <item
+        android:id="@+id/btnpoll"
+        android:icon="@drawable/poll"
+        android:title="Poll" />
+    <item
+        android:id="@+id/btnProfile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+</menu>
