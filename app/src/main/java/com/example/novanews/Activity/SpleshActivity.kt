@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.novanews.Helper.AuthHelper.Companion.authHelper
 import com.example.novanews.R
 import com.example.novanews.databinding.ActivitySpleshBinding
 
@@ -26,10 +27,17 @@ class SpleshActivity : AppCompatActivity() {
         }
 
         Handler().postDelayed({
-            val intent = Intent(this, LoginActivity::class.java)
+
+            var intent:Intent
+
+            if (authHelper.auth.currentUser == null){
+                intent = Intent(this, LoginActivity::class.java)
+            }else{
+                intent = Intent(this, MainActivity::class.java)
+            }
             startActivity(intent)
             finish()
-        }, 3000)
+            }, 3000)
 
+        }
     }
-}

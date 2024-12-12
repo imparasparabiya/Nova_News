@@ -34,9 +34,9 @@ class CitySearchAdapter(val cityList: List<ModalClass>, val listener: (ModalClas
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
        val city = cityList[position]
         holder.cityName.text = city.cityName
-        holder.itemView.setOnClickListener {
-            listener(city)
-        }
-
+//        holder.itemView.setOnClickListener {
+//            listener(city)
+//        }
+        holder.bind(city, listener)
     }
 }

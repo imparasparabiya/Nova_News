@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -65,4 +66,10 @@ dependencies {
     //Glide
     implementation("com.github.bumptech.glide:glide:4.16.0")
 
+    //Firebase
+    implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
+    implementation("com.google.firebase:firebase-analytics")
+
+    //Auth
+    implementation("com.google.firebase:firebase-auth")
 }

@@ -11,6 +11,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.novanews.Adapter.CitySearchAdapter
+import com.example.novanews.Fragment.PopularFragment
 import com.example.novanews.Modal.ModalClass
 import com.example.novanews.R
 import com.example.novanews.databinding.ActivityCitySearchBinding
@@ -40,6 +41,9 @@ class CitySearchActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             intent.putExtra("cityName", selectedCity.cityName)
             startActivity(intent)
+
+            val intent1 = Intent(this,PopularFragment::class.java)
+            startActivity(intent1)
         }
         citySearchBinding.rvDAtaCity.layoutManager = LinearLayoutManager(this)
         citySearchBinding.rvDAtaCity.adapter = citySearchAdapter

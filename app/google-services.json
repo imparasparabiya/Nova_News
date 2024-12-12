@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1011774061435",
+    "project_id": "nova-news-cfc68",
+    "storage_bucket": "nova-news-cfc68.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011774061435:android:4aec49bea254c51c991bde",
+        "android_client_info": {
+          "package_name": "com.example.novanews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi7N-41XfAO6rTUk3iBfBo9TRGnMZ8TpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

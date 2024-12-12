@@ -15,11 +15,4 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Popular Fragment"-->
-<!--        android:layout_below="@+id/rvDataPopular"-->
-<!--        android:layout_centerInParent="true"/>-->
-
 </RelativeLayout>
